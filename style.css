@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --VeryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding-top: 20%;
+    background-color: var(--VeryLightGray);
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+h2.bolded {
+    font-weight: 600;
+    margin-top: 1.5%;
+    color: var(--VeryDarkBlue);
+}
+
+p.main {
+    width: 80%;
+    margin: auto;
+    text-justify: distribute;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    color: var(--GrayishBlue);
+}
+
+.card_cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15% auto;
+}
+
+.card {
+    width: 90%;
+    height: 250px;
+    border-style: solid none none none;
+    border-radius: 10px;
+    border-color: var(--Blue);
+    padding: 5%;
+    box-shadow: 0px 0px 5px hsl(229, 6%, 66%);
+    margin-top: 1%;
+}
+
+.card h3 {
+    color: var(--VeryDarkBlue);
+    font-size: 1.2rem;
+}
+
+.card p {
+    width: 100%;
+    color: var(--GrayishBlue);
+}
+
+.card .icon {
+    margin-top: 20%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.card .icon .icon_box {
+    width: 20%;
+}
